@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0F0F0F;
+    color: #ffffff;
+}
+
+header {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #C1C702;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1; 
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.search-bar input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    flex-grow: 1;
+    background-color: #1F1F1F;
+}
+
+.search-bar button {
+    padding: 10px 15px;
+    color: #C1C702;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: #0F0F0F;
+    font-weight: bold;
+    width: auto;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.song-info {
+    max-width: 500px;
+}
+
+.song-info h1 {
+    font-size: 1.8rem;
+    color: #E75D00;
+}
+
+.song-info h2 {
+    font-size: 1.5rem;
+    color: #C1C702;
+}
+
+.tabs {
+    margin: 10px 0;
+}
+
+.tab-button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    margin-right: 5px;
+    background-color: #0F0F0F;
+    color: #FFFFFF;
+}
+
+.tab-button.active {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.lyrics {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.video-section iframe {
+    border: none;
+}
+
+.video-section .views {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin-top: 20px;
+    color: #555;
+}
+
+button {
+    border-radius: 20px;
+    width: 20%;
+}
